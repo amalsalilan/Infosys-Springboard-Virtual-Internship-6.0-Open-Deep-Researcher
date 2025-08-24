@@ -1,0 +1,27 @@
+{
+  "input": "AI-driven personalized learning platforms",
+  "output": {
+    "title": "AI-Driven Personalized Learning Platforms: Effectiveness and Equity",
+    "problem_statement": "Current learning platforms often fail to cater to individual student needs, leading to inconsistent learning outcomes and potential inequities. AI offers the potential to personalize learning, but its effectiveness and equitable implementation require further investigation.",
+    "key_questions": [
+      "How effective are AI-driven personalized learning platforms in improving student learning outcomes compared to traditional methods?",
+      "What are the key design features of AI-driven platforms that contribute to or hinder effective learning?",
+      "Do AI-driven platforms exacerbate or mitigate existing educational inequities based on factors such as socioeconomic status, learning disabilities, or access to technology?",
+      "What are the ethical considerations and potential biases embedded within AI-driven personalized learning systems?",
+      "How can the implementation of AI-driven platforms be optimized to ensure equitable access and benefit for all students?"
+    ],
+    "method_brief": [
+      "Literature review of existing research on AI in education and personalized learning.",
+      "Comparative analysis of different AI-driven learning platforms.",
+      "Case studies of successful and unsuccessful implementations of AI-driven platforms.",
+      "Qualitative data collection through interviews with students, teachers, and platform developers.",
+      "Quantitative data analysis of student performance data from selected platforms."
+    ],
+    "deliverables": [
+      "A comprehensive literature review report.",
+      "A comparative analysis report of AI-driven learning platforms.",
+      "A policy brief outlining recommendations for equitable and effective implementation of AI-driven personalized learning.",
+      "A presentation summarizing key findings and recommendations."
+    ]
+  }
+}
