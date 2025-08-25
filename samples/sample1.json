@@ -1,25 +1,31 @@
 {
   "input": "Impact of ONDC on Small Retailers in India",
   "output": {
+    "date": "2025-08-25",
     "title": "Impact of ONDC on Small Retailers in India",
-    "problem_statement": "To assess the impact of the Open Network for Digital Commerce (ONDC) on the operational efficiency, profitability, and market reach of small retailers in India.",
+    "problem_statement": "To assess the impact of the Open Network for Digital Commerce (ONDC) on the performance and growth of small retailers in India.  This includes evaluating both the benefits and challenges faced by these retailers in adopting and utilizing the ONDC platform.",
     "key_questions": [
-      "What is the level of ONDC adoption among small retailers in different regions of India?",
-      "How has ONDC affected sales volume and revenue for small retailers?",
-      "What are the perceived benefits and challenges of using ONDC for small retailers?",
-      "How does ONDC compare to existing e-commerce platforms in terms of cost, reach, and ease of use for small retailers?",
-      "What are the implications of ONDC for the long-term sustainability and growth of small retail businesses in India?"
+      "What is the level of adoption of ONDC among small retailers in different regions of India?",
+      "How has ONDC affected the sales and revenue of small retailers?",
+      "What are the key challenges faced by small retailers in using the ONDC platform (e.g., technological barriers, logistical issues, competition)?",
+      "What are the perceived benefits of ONDC for small retailers (e.g., increased reach, reduced transaction costs, access to new markets)?",
+      "How does ONDC impact the pricing strategies and profitability of small retailers?",
+      "What support mechanisms are needed to facilitate greater ONDC adoption and success among small retailers?",
+      "What is the comparative impact of ONDC on small retailers versus larger businesses?"
     ],
     "method_brief": [
-      "Conduct a mixed-methods study combining quantitative and qualitative data collection.",
-      "Quantitative data will be collected through surveys of a representative sample of small retailers using ONDC and those who are not.",    
-      "Qualitative data will be gathered through in-depth interviews with small retailers, ONDC platform operators, and relevant stakeholders.",    "Statistical analysis will be used to identify correlations between ONDC adoption and key business outcomes.",
-      "Thematic analysis will be used to identify key themes and patterns in the qualitative data."
+      "Conduct a literature review of existing research on ONDC and its impact.",
+      "Collect primary data through surveys and interviews with small retailers across diverse geographical locations and business types.",
+      "Analyze secondary data from ONDC platform usage statistics (if publicly available).",
+      "Employ quantitative and qualitative data analysis techniques to identify trends and patterns.",
+      "Develop case studies of successful and unsuccessful ONDC adoption by small retailers.",
+      "Compare the findings with the impact of other e-commerce platforms on small retailers."
     ],
     "deliverables": [
       "A comprehensive research report summarizing the findings.",
-      "A presentation of key findings and recommendations for policymakers and stakeholders.",
-      "A dataset of quantitative and qualitative data collected during the study."
+      "Data visualizations illustrating key trends and patterns.",
+      "Policy recommendations for improving ONDC's effectiveness for small retailers.",
+      "A presentation summarizing the key findings and recommendations."
     ]
   }
 }

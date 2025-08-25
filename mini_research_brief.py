@@ -1,4 +1,3 @@
-
 from dotenv import load_dotenv
 import os
 import json
@@ -7,11 +6,15 @@ from pydantic import BaseModel, ValidationError
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.output_parsers import PydanticOutputParser
 from langchain.prompts import PromptTemplate
+from datetime import datetime
 
 load_dotenv()
 
+today = datetime.now().strftime("%Y-%m-%d")
+
 # Define schema
 class ResearchBrief(BaseModel):
+    date: str
     title: str
     problem_statement: str   # <= 2 sentences
     key_questions: List[str] # 1–3 items
@@ -45,19 +48,23 @@ def main():
     # Prompt
     prompt = PromptTemplate(
         template=(
-            "You are a research assistant. Generate a concise research brief for the topic: {topic}.\n\n"
+            "You are a research assistant. Generate a concise research brief for the topic: {topic}.\n"
+            "Today’s date is {date}. Use the most recent information available up to this date.\n\n"
             "Return JSON strictly matching this schema:\n{format_instructions}"
         ),
-        input_variables=["topic"],
+        input_variables=["topic", "date"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
 
     try:
-        _input = prompt.format_prompt(topic=topic)
+        _input = prompt.format_prompt(topic=topic, date=today)
         output = llm.invoke(_input.to_messages())
 
         # Parse output
         brief = parser.parse(output.content)
+
+        #Overwrite date to ensure correctness
+        brief.date = today  
 
         # Print JSON
         print("\nStructured JSON Output:\n")
@@ -65,6 +72,7 @@ def main():
 
         # Markdown preview
         print("\nMarkdown Preview:\n")
+        print(f"Date: {brief.date}\n")
         print(f"# {brief.title}\n")
         print(f"**Problem Statement:** {brief.problem_statement}\n")
         print("**Key Questions:**")

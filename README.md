@@ -52,59 +52,68 @@ JSON (validated by Pydantic)
 {
   "input": "Impact of ONDC on Small Retailers in India",
   "output": {
+    "date": "2025-08-25",
     "title": "Impact of ONDC on Small Retailers in India",
-    "problem_statement": "To assess the impact of the Open Network for Digital Commerce (ONDC) on the operational efficiency, profitability, and market reach of small retailers in India.",
+    "problem_statement": "To assess the impact of the Open Network for Digital Commerce (ONDC) on the performance and growth of small retailers in India.  This includes evaluating both the benefits and challenges faced by these retailers in adopting and utilizing the ONDC platform.",
     "key_questions": [
-      "What is the level of ONDC adoption among small retailers in different regions of India?",
-      "How has ONDC affected sales volume and revenue for small retailers?",
-      "What are the perceived benefits and challenges of using ONDC for small retailers?",
-      "How does ONDC compare to existing e-commerce platforms in terms of cost, reach, and ease of use for small retailers?",
-      "What are the implications of ONDC for the long-term sustainability and growth of small retail businesses in India?"
+      "What is the level of adoption of ONDC among small retailers in different regions of India?",
+      "How has ONDC affected the sales and revenue of small retailers?",
+      "What are the key challenges faced by small retailers in using the ONDC platform (e.g., technological barriers, logistical issues, competition)?",
+      "What are the perceived benefits of ONDC for small retailers (e.g., increased reach, reduced transaction costs, access to new markets)?",
+      "How does ONDC impact the pricing strategies and profitability of small retailers?",
+      "What support mechanisms are needed to facilitate greater ONDC adoption and success among small retailers?",
+      "What is the comparative impact of ONDC on small retailers versus larger businesses?"
     ],
     "method_brief": [
-      "Conduct a mixed-methods study combining quantitative and qualitative data collection.",
-      "Quantitative data will be collected through surveys of a representative sample of small retailers using ONDC and those who are not.",    
-      "Qualitative data will be gathered through in-depth interviews with small retailers, ONDC platform operators, and relevant stakeholders.",    "Statistical analysis will be used to identify correlations between ONDC adoption and key business outcomes.",
-      "Thematic analysis will be used to identify key themes and patterns in the qualitative data."
+      "Conduct a literature review of existing research on ONDC and its impact.",
+      "Collect primary data through surveys and interviews with small retailers across diverse geographical locations and business types.",
+      "Analyze secondary data from ONDC platform usage statistics (if publicly available).",
+      "Employ quantitative and qualitative data analysis techniques to identify trends and patterns.",
+      "Develop case studies of successful and unsuccessful ONDC adoption by small retailers.",
+      "Compare the findings with the impact of other e-commerce platforms on small retailers."
     ],
     "deliverables": [
       "A comprehensive research report summarizing the findings.",
-      "A presentation of key findings and recommendations for policymakers and stakeholders.",
-      "A dataset of quantitative and qualitative data collected during the study."
+      "Data visualizations illustrating key trends and patterns.",
+      "Policy recommendations for improving ONDC's effectiveness for small retailers.",
+      "A presentation summarizing the key findings and recommendations."
     ]
   }
 }
 ```
 ### `sample2.json`
-**Input:** *Post-Quantum Crypto Migration for Fintechs*
+**Input:** *Impact of ONDC on small retailers in India*
 ```json
 {
   "input": "Post-Quantum Crypto Migration for Fintechs",
   "output": {
+    "date": "2025-08-25",
     "title": "Post-Quantum Crypto Migration for Fintechs",
-    "problem_statement": "The advent of quantum computing threatens the security of widely used public-key cryptography algorithms currently employed by Fintechs.  A timely and effective migration strategy is crucial to maintain data integrity and customer trust.",
+    "problem_statement": "The advent of quantum computing poses a significant threat to the security of current public-key cryptography used extensively in the Fintech sector.  Existing cryptographic algorithms, such as RSA and ECC, are vulnerable to attacks from sufficiently powerful quantum computers.  This necessitates a timely and efficient migration to post-quantum cryptography (PQC) to maintain the confidentiality, integrity, and availability of financial systems.",
     "key_questions": [
-      "What are the most critical cryptographic algorithms used by Fintechs vulnerable to quantum attacks?",
-      "What are the available post-quantum cryptographic (PQC) alternatives and their respective strengths and weaknesses?",
-      "What is the cost and complexity of migrating to PQC for different Fintech systems (e.g., payment processing, authentication)?",
-      "What are the regulatory and compliance implications of PQC adoption for Fintechs?",
-      "What are the potential risks and challenges associated with PQC implementation and integration?",
-      "What is the optimal migration strategy (phased approach, complete overhaul) for minimizing disruption and maximizing security?"
+      "What are the most suitable PQC algorithms for various Fintech applications (e.g., digital signatures, key exchange, encryption)?",
+      "What are the performance implications of migrating to PQC algorithms in terms of latency, throughput, and resource consumption?",
+      "What are the security considerations and potential vulnerabilities associated with PQC implementation in Fintech systems?",
+      "What are the regulatory and compliance requirements for PQC adoption in different jurisdictions?",
+      "What is the cost-benefit analysis of migrating to PQC, considering implementation costs, potential losses from security breaches, and long-term security?",
+      "What are the best practices and strategies for a phased migration to PQC to minimize disruption and ensure a smooth transition?"
     ],
     "method_brief": [
-      "Literature review of existing PQC algorithms and migration strategies.",
-      "Analysis of current cryptographic practices within the Fintech industry.",
-      "Case studies of successful and unsuccessful PQC migrations in related sectors.",
-      "Development of a cost-benefit analysis framework for PQC adoption.",
-      "Risk assessment of different migration approaches.",
-      "Interviews with Fintech security experts and stakeholders."
+      "Literature review of existing PQC algorithms and their suitability for Fintech applications.",
+      "Comparative analysis of the performance characteristics of different PQC algorithms.",
+      "Security analysis of PQC implementations, including vulnerability assessments.",
+      "Case studies of PQC adoption in the Fintech industry.",
+      "Development of a cost-benefit model for PQC migration.",
+      "Survey of regulatory and compliance requirements for PQC.",
+      "Interviews with Fintech experts and stakeholders."
     ],
     "deliverables": [
       "A comprehensive report summarizing the findings of the research.",
-      "A comparative analysis of different PQC algorithms suitable for Fintech applications.",
-      "A proposed migration roadmap with timelines and cost estimations.",
-      "A risk mitigation strategy for managing the transition to PQC.",
-      "Recommendations for regulatory compliance and best practices."
+      "A comparative analysis of different PQC algorithms and their suitability for Fintech applications.",
+      "A risk assessment of the migration process and recommendations for mitigation.",
+      "A cost-benefit analysis of PQC migration for Fintechs.",
+      "A set of best practices and guidelines for a successful PQC migration.",
+      "A presentation summarizing the key findings and recommendations."
     ]
   }
 }
@@ -116,26 +125,29 @@ JSON (validated by Pydantic)
 {
   "input": "AI-driven personalized learning platforms",
   "output": {
-    "title": "AI-Driven Personalized Learning Platforms: Effectiveness and Equity",
-    "problem_statement": "Current learning platforms often fail to cater to individual student needs, leading to inconsistent learning outcomes and potential inequities. AI offers the potential to personalize learning, but its effectiveness and equitable implementation require further investigation.",
+    "date": "2025-08-25",
+    "title": "Research Brief: AI-Driven Personalized Learning Platforms",
+    "problem_statement": "Current learning platforms often fail to cater to individual student needs, leading to inconsistent learning outcomes and decreased engagement.  AI offers the potential to personalize learning experiences, but challenges remain in areas such as data privacy, algorithm bias, and effective integration with existing educational systems.",
     "key_questions": [
-      "How effective are AI-driven personalized learning platforms in improving student learning outcomes compared to traditional methods?",
-      "What are the key design features of AI-driven platforms that contribute to or hinder effective learning?",
-      "Do AI-driven platforms exacerbate or mitigate existing educational inequities based on factors such as socioeconomic status, learning disabilities, or access to technology?",
-      "What are the ethical considerations and potential biases embedded within AI-driven personalized learning systems?",
-      "How can the implementation of AI-driven platforms be optimized to ensure equitable access and benefit for all students?"
+      "What are the most effective AI algorithms for personalized learning in different subject areas and learning styles?",
+      "How can AI-driven platforms address issues of equity and access in education?",
+      "What are the ethical implications of using AI in personalized learning, particularly concerning data privacy and algorithmic bias?",
+      "What are the optimal methods for integrating AI-driven personalization into existing educational curricula and teacher workflows?",
+      "What are the key factors influencing student engagement and learning outcomes in AI-driven personalized learning environments?",
+      "How can the effectiveness of AI-driven personalized learning platforms be reliably measured and evaluated?"
     ],
     "method_brief": [
       "Literature review of existing research on AI in education and personalized learning.",
-      "Comparative analysis of different AI-driven learning platforms.",
-      "Case studies of successful and unsuccessful implementations of AI-driven platforms.",
-      "Qualitative data collection through interviews with students, teachers, and platform developers.",
-      "Quantitative data analysis of student performance data from selected platforms."
+      "Analysis of commercially available AI-driven learning platforms.",
+      "Case studies of successful implementations of AI in educational settings.",
+      "Interviews with educators and students to gather feedback on the effectiveness and challenges of AI-driven personalized learning.",
+      "Statistical analysis of learning outcomes data from AI-driven platforms (where available)."
     ],
     "deliverables": [
-      "A comprehensive literature review report.",
-      "A comparative analysis report of AI-driven learning platforms.",
-      "A policy brief outlining recommendations for equitable and effective implementation of AI-driven personalized learning.",
+      "A comprehensive literature review summarizing current research on AI-driven personalized learning.",
+      "A comparative analysis of existing AI-driven learning platforms.",
+      "A report outlining the ethical considerations and potential challenges of implementing AI in education.",
+      "Recommendations for best practices in designing and implementing effective AI-driven personalized learning platforms.",
       "A presentation summarizing key findings and recommendations."
     ]
   }
