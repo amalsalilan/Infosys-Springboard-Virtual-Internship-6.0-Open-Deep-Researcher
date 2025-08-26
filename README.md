@@ -9,27 +9,29 @@ Generates concise, validated research briefs in structured JSON for any topic.
 
 code/
 │
-├── deep_research.py # Main agent script
-├── .env # Your API key (local only)
-├── .gitignore # Ensures .env stays private
-├── sample/
-│ ├── sample1.json
-│ ├── sample2.json
-│ └── sample3.json  
+├── deep_research.py # Main agent script  
+├── .env # Your API key (local only)  
+├── .gitignore # Ensures .env stays private  
+├── sample/  
+│ ├── sample1.json  
+│ ├── sample2.json  
+│ └── sample3.json   
 
 ---
 
 ## 🚀 Setup Instructions
 
 1. **Clone the repository**
+```
 git clone https://github.com/Jeevan200431/Deep_research_blog.git  
 cd Deep_research_blog/code
+```
 
 
-2. **Install required Python libraries**
+3. **Install required Python libraries**
 pip install langchain langchain-google-genai pydantic
 
-3. **Add your Google Gemini API key**
+4. **Add your Google Gemini API key**
 
 - Create a file named `.env` in the `code/` directory:
   ```
