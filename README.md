@@ -13,6 +13,7 @@ Mini_Research_Brief/
 │    ├── sample1.json
 │    ├── sample2.json
 │    └── sample3.json
+│── configurations.py
 ```
 
 ## Setup
