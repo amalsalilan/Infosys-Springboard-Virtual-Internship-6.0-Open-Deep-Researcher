@@ -7,8 +7,8 @@ Generates concise, validated research briefs in structured JSON for any topic.
 
 ## 📦 Project Structure
 
-code/
-│
+code/  
+│  
 ├── deep_research.py # Main agent script  
 ├── .env # Your API key (local only)  
 ├── .gitignore # Ensures .env stays private  
