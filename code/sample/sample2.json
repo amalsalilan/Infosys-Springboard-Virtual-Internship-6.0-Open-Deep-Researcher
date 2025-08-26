@@ -1,0 +1,45 @@
+{
+  "title": "The Role of AI Tutors in Higher Education",
+  "date": "2025-08-26",
+  "objective": "To investigate the effectiveness and impact of AI tutors in higher education settings.",
+  "key_questions": [
+    "What are the pedagogical benefits and limitations of AI tutors?",
+    "How do students perceive and interact with AI tutors?",
+    "What are the ethical considerations surrounding the use of AI tutors?",
+    "What is the cost-effectiveness of implementing AI tutors compared to traditional methods?",
+    "How can AI tutors be integrated effectively into existing curricula?"
+  ],
+  "methodology": [
+    "Literature review of existing research on AI in education",
+    "Analysis of case studies of AI tutor implementation in higher education",
+    "Surveys and interviews with students and instructors who have used AI tutors",
+    "Statistical analysis of student performance data where AI tutors were used"
+  ],
+  "search_strategy": [
+    "Keyword searches in academic databases (e.g., ERIC, JSTOR, Scopus)",
+    "Review of relevant journals and conference proceedings",
+    "Examination of reports and publications from educational technology organizations"
+  ],
+  "sources_to_start": [
+    "Journal of Educational Technology & Society",
+    "Computers & Education",
+    "Educational Researcher"
+  ],
+  "milestones_timeline": [
+    "Literature review completion: 2025-09-30",
+    "Data collection (surveys, interviews): 2025-10-31",
+    "Data analysis: 2025-11-30",
+    "Draft report completion: 2025-12-15",
+    "Final report submission: 2026-01-15"
+  ],
+  "risks_mitigations": [
+    "Limited access to relevant data: Collaboration with universities to access data",
+    "Bias in AI tutors: Critical review of algorithms and data used in AI tutor development",
+    "Time constraints: Prioritization of tasks and efficient data analysis techniques"
+  ],
+  "deliverables": [
+    "Comprehensive literature review",
+    "Data analysis report",
+    "Final research report with findings and recommendations"
+  ]
+}
