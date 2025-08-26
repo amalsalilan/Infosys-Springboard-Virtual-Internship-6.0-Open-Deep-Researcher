@@ -3,7 +3,7 @@
 A small Python tool that generates a structured research brief using **LangChain + Google Generative AI (Gemini)**.
 
 ---
-## 📂 File Structure
+## File Structure
 
 ```
 Mini_Research_Brief/
