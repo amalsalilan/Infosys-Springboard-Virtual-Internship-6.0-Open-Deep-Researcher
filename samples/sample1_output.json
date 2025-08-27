@@ -1,0 +1,20 @@
+{
+  "title": "Impact of ONDC on Small Retailers in India",
+  "problem_statement": "Small retailers struggle to digitize while competing with well-capitalized marketplaces. ONDC could expand reach but raises concerns around onboarding, fees, and discovery.",
+  "key_questions": [
+    "How does ONDC change customer acquisition and discovery for kirana stores?",
+    "What onboarding, logistics, and pricing frictions do small retailers face?",
+    "What metrics indicate a positive impact within 3–6 months?"
+  ],
+  "method_brief": [
+    "Rapid literature and policy scan on ONDC architecture and participants",
+    "Semi-structured interviews with 10–15 small retailers across 3 cities",
+    "Transaction and basket-size trend analysis from pilot partners",
+    "Benchmark against pre-ONDC digital channels"
+  ],
+  "deliverables": [
+    "5–7 page brief with metrics and retailer quotes",
+    "Actionable playbook for onboarding and promotions",
+    "1-page policy considerations summary"
+  ]
+}
