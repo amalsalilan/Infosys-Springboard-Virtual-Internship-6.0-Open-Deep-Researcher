@@ -1,0 +1,21 @@
+{
+  "title": "K-Nearest Neighbors (KNN) Algorithm",
+  "date": "28 Aug 2025",
+  "problem_statement": "KNN is a simple yet effective non-parametric algorithm used for classification and regression tasks. However, its performance can be significantly impacted by the choice of 'k', distance metric, and the curse of dimensionality.",
+  "key_questions": [
+    "How does the choice of 'k' impact KNN's bias-variance trade-off and overall accuracy?",
+    "What are the most effective distance metrics for different data types and distributions in KNN?",
+    "How can KNN's computational efficiency and scalability be improved for large datasets?"
+  ],
+  "method_brief": [
+    "Literature review on KNN variations, optimization techniques, and applications.",
+    "Empirical analysis of KNN performance across various datasets with different 'k' values and distance metrics.",
+    "Comparison of KNN with other supervised learning algorithms on benchmark datasets.",
+    "Investigation into dimensionality reduction techniques to enhance KNN's performance."
+  ],
+  "deliverables": [
+    "A comprehensive report detailing KNN's strengths, weaknesses, and optimal usage scenarios.",
+    "Code implementation demonstrating optimized KNN for classification.",
+    "Recommendations for practical application and further research."
+  ]
+}

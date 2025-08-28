@@ -1,0 +1,20 @@
+{
+  "title": "Graph Neural Networks",
+  "date": "28 Aug 2025",
+  "problem_statement": "Traditional deep learning models struggle with non-Euclidean data structures like graphs, limiting their ability to capture complex relationships inherent in such data. Graph Neural Networks (GNNs) offer a promising solution by extending deep learning to graph-structured data.",
+  "key_questions": [
+    "How do GNNs effectively learn representations from graph structures?",
+    "What are the key architectural variations of GNNs and their respective strengths?",
+    "What are the current limitations and open challenges in GNN research and application?"
+  ],
+  "method_brief": [
+    "Conduct a comprehensive literature review on foundational GNN models and recent advancements.",
+    "Analyze the performance and applicability of different GNN architectures across various graph-based tasks.",
+    "Identify and categorize real-world applications where GNNs demonstrate significant impact."
+  ],
+  "deliverables": [
+    "A concise overview of prominent GNN architectures and their operational principles.",
+    "An analysis of GNN performance across diverse application domains.",
+    "A summary of current research gaps and potential future directions for GNN development."
+  ]
+}

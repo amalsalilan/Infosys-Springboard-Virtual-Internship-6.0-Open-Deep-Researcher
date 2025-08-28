@@ -1,0 +1,21 @@
+{
+  "title": "Quantum Computing",
+  "date": "28 Aug 2025",
+  "problem_statement": "Quantum computing offers unprecedented computational power for complex problems, yet its practical realization is hindered by challenges in hardware stability, error correction, and algorithm development. Understanding these limitations is crucial for advancing the field.",
+  "key_questions": [
+    "What are the current frontiers in quantum hardware development and error correction?",
+    "Which quantum algorithms are most likely to achieve practical advantage in the next 5-10 years?",
+    "What are the critical barriers to scaling quantum systems and how can they be addressed?"
+  ],
+  "method_brief": [
+    "Review of recent academic papers and industry reports on quantum hardware (superconducting, trapped ion, photonic).",
+    "Comparative analysis of leading quantum algorithms (e.g., Shor's, Grover's, QAOA) and their application domains.",
+    "Assessment of current quantum error correction techniques and their feasibility.",
+    "Exploration of the economic and societal impact of quantum technologies."
+  ],
+  "deliverables": [
+    "Comprehensive report on the state of quantum computing technology.",
+    "Analysis of promising applications and their readiness levels.",
+    "Recommendations for future research and development priorities."
+  ]
+}
