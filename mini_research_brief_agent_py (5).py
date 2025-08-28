@@ -140,14 +140,5 @@ if __name__ == "__main__":
     topic = input("Enter your research topic: ")
     generate_brief(topic)
 
-!ls /content/samples
 
-from google.colab import files
-files.download("/content/samples/artificial_intelligence.json")
 
-!zip -r samples.zip /content/samples
-from google.colab import files
-files.download("samples.zip")
-
-from google.colab import files
-files.download("/content/samples/post-quantum_crypto_migration_for_fintechs.md")
