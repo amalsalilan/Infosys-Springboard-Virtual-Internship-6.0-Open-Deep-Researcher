@@ -10,12 +10,12 @@ Generates concise, validated research briefs in structured JSON for any topic.
 code/  
 │  
 ├── deep_research.py # Main agent script  
-├── .env # Your API key  
-├── .gitignore
-├── sample/  
-│ ├── sample1.json  
-│ ├── sample2.json  
-│ └── sample3.json   
+├── .env # Your API key    
+├── .gitignore  
+├── sample/    
+│ ├── sample1.json   
+│ ├── sample2.json   
+│ └── sample3.json    
 
 ---
 
