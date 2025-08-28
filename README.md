@@ -5,13 +5,13 @@ Generates concise, validated research briefs in structured JSON for any topic.
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 code/  
 │  
 ├── deep_research.py # Main agent script  
-├── .env # Your API key (local only)  
-├── .gitignore # Ensures .env stays private  
+├── .env # Your API key  
+├── .gitignore
 ├── sample/  
 │ ├── sample1.json  
 │ ├── sample2.json  
