@@ -21,7 +21,6 @@ class ResearchPlan(BaseModel):
     methodology: List[str]
     search_strategy: List[str]
     sources_to_start: List[str]
-    milestones_timeline: List[str]
     risks_mitigations: List[str]
     deliverables: List[str]
 
@@ -30,8 +29,8 @@ def get_today_date():
     return datetime.now(tz).strftime("%Y-%m-%d")
 
 def main():
-    # Hardcoded research topic — change this string as needed
-    topic = "What are the long-term implications or risks if this issue is not addressed?"
+    # Hardcoded research topic
+    topic = "what is ai"
 
     if not topic:
         print("Error: No topic provided.")
@@ -76,7 +75,7 @@ def main():
     print("\nResearch Plan (JSON):")
     print(json.dumps(result.dict(), indent=2))
 
-    print("\n### 📑 Research Plan (Markdown Preview)\n")
+    print("\n### Research Plan (Markdown Preview)\n")
     print(f"**Title:** {result.title}\n")
     print(f"**Date:** {result.date}\n")
     print(f"**Objective:** {result.objective}\n")
@@ -92,9 +91,6 @@ def main():
     print("\n**Sources to Start:**")
     for src in result.sources_to_start:
         print(f"- {src}")
-    print("\n**Milestones & Timeline:**")
-    for ms in result.milestones_timeline:
-        print(f"- {ms}") 
     print("\n**Risks & Mitigations:**")
     for rm in result.risks_mitigations:
         print(f"- {rm}")
