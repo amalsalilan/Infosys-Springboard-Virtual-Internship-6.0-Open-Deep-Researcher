@@ -1,0 +1,101 @@
+Output 1:Impact of ONDC on Small Retailers in India
+JSON Output:
+
+{
+  "title": "Impact of ONDC on Small Retailers in India",
+  "problem_statement": "Small retailers in India often struggle with digital presence and market access compared to larger e-commerce players. This research aims to understand how the Open Network for Digital Commerce (ONDC) is influencing their business operations and growth.",
+  "date": "2025-08-26"
+  "key_questions": [
+    "How has ONDC adoption affected the sales volume and customer reach of small retailers?",
+    "What are the primary challenges and opportunities small retailers face when integrating with ONDC?",
+    "Does ONDC provide a level playing field for small retailers against established e-commerce giants?"
+  ],
+  "method_brief": [
+    "Conduct surveys and interviews with small retailers currently using or considering ONDC across various Indian cities.",
+    "Analyze available sales data and market reach metrics for participating retailers before and after ONDC integration.",
+    "Review existing literature, reports, and case studies on ONDC's rollout and initial impact.",
+    "Compare ONDC's value proposition for small retailers against traditional e-commerce platforms."
+  ],
+  "deliverables": [
+    "A comprehensive research report detailing ONDC's impact, challenges, and opportunities for small retailers.",    
+    "Recommendations for policy makers and ONDC to further support small businesses.",
+    "A summary presentation of key findings and actionable insights."
+  ],
+  
+}
+
+Markdown Preview:
+
+# Impact of ONDC on Small Retailers in India
+
+**Date:** 2025-08-26
+
+**Problem Statement:** Small retailers in India often struggle with digital presence and market access compared to larger e-commerce players. This research aims to understand how the Open Network for Digital Commerce (ONDC) is influencing their business operations and growth.
+
+**Key Questions:**
+- How has ONDC adoption affected the sales volume and customer reach of small retailers?
+- What are the primary challenges and opportunities small retailers face when integrating with ONDC?
+- Does ONDC provide a level playing field for small retailers against established e-commerce giants?
+
+**Method Brief:**
+- Conduct surveys and interviews with small retailers currently using or considering ONDC across various Indian cities.
+- Analyze available sales data and market reach metrics for participating retailers before and after ONDC integration.
+- Review existing literature, reports, and case studies on ONDC's rollout and initial impact.
+- Compare ONDC's value proposition for small retailers against traditional e-commerce platforms.
+
+**Deliverables:**
+- A comprehensive research report detailing ONDC's impact, challenges, and opportunities for small retailers.
+- Recommendations for policy makers and ONDC to further support small businesses.
+- A summary presentation of key findings and actionable insights.
+
+
+
+Output-2: Post-Quantum Crypto Migration for Fintechs
+JSON Output:
+
+{
+  "title": "Post-Quantum Crypto Migration for Fintechs",
+  "problem_statement": "Fintechs face an urgent need to migrate to post-quantum cryptography (PQC) as current cryptographic standards are vulnerable to future quantum attacks. Failure to act proactively could lead to severe security breaches and loss of trust.", 
+  "date": "2025-08-26"     
+  "key_questions": [
+    "What are the most suitable PQC algorithms for fintech applications, considering performance and security?",
+    "What are the key technical, operational, and regulatory challenges fintechs face during PQC migration?",
+    "How can fintechs develop a robust migration roadmap and ensure business continuity during the transition?"
+  ],
+  "method_brief": [
+    "Conduct a comprehensive literature review on NIST-standardized PQC algorithms and their applicability to fintech.",
+    "Analyze current cryptographic infrastructure within typical fintech environments to identify migration touchpoints.",
+    "Evaluate existing PQC migration strategies and develop a tailored framework for fintechs.",
+    "Identify potential technical, financial, and operational risks associated with PQC adoption and propose mitigation."
+  ],
+  "deliverables": [
+    "A detailed research report on PQC readiness and migration strategies for fintechs.",
+    "A comprehensive risk assessment and mitigation plan for PQC implementation in financial services.",
+    "A phased roadmap for PQC adoption, including technical recommendations and compliance considerations."
+  ],
+  
+}
+
+Markdown Preview:
+
+# Post-Quantum Crypto Migration for Fintechs
+
+**Date:** 2025-08-26
+
+**Problem Statement:** Fintechs face an urgent need to migrate to post-quantum cryptography (PQC) as current cryptographic standards are vulnerable to future quantum attacks. Failure to act proactively could lead to severe security breaches and loss of trust.
+
+**Key Questions:**
+- What are the most suitable PQC algorithms for fintech applications, considering performance and security?
+- What are the key technical, operational, and regulatory challenges fintechs face during PQC migration?
+- How can fintechs develop a robust migration roadmap and ensure business continuity during the transition?
+
+**Method Brief:**
+- Conduct a comprehensive literature review on NIST-standardized PQC algorithms and their applicability to fintech.
+- Analyze current cryptographic infrastructure within typical fintech environments to identify migration touchpoints.
+- Evaluate existing PQC migration strategies and develop a tailored framework for fintechs.
+- Identify potential technical, financial, and operational risks associated with PQC adoption and propose mitigation.
+
+**Deliverables:**
+- A detailed research report on PQC readiness and migration strategies for fintechs.
+- A comprehensive risk assessment and mitigation plan for PQC implementation in financial services.
+- A phased roadmap for PQC adoption, including technical recommendations and compliance considerations.
