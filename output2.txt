@@ -1,0 +1,46 @@
+Enter your research topic: What is AI?
+
+ JSON Output:
+
+{
+  "title": "Defining Artificial Intelligence in 2025",
+  "problem_statement": "Artificial intelligence (AI) is a rapidly evolving field with diverse interpretations.  This research aims to provide a clear and concise definition of AI, encompassing its current capabilities and limitations.",
+  "key_questions": [
+    "What is the current, widely accepted definition of Artificial Intelligence?",
+    "How do different subfields of AI (e.g., machine learning, deep learning, natural language processing) contribute to the overall concept?",    "What are the ethical considerations and societal implications of defining and utilizing AI?"
+  ],
+  "method_brief": [
+    "Review and synthesize existing literature on AI definitions from academic and industry sources.",
+    "Analyze prominent AI systems and applications to identify common characteristics.",
+    "Examine the evolution of AI definitions over time to understand shifts in understanding."
+  ],
+  "deliverables": [
+    "A concise, up-to-date definition of AI suitable for a broad audience.",
+    "A summary report outlining the key characteristics and subfields of AI.",
+    "An identification of key challenges and future research directions in defining AI."
+  ]
+}
+
+ Markdown Preview:
+
+# Defining Artificial Intelligence in 2025
+
+**Date:** 2025-08-26
+
+**Problem Statement:** Artificial intelligence (AI) is a rapidly evolving field with diverse interpretations.  This research aims to provide a 
+clear and concise definition of AI, encompassing its current capabilities and limitations.
+
+**Key Questions:**
+- What is the current, widely accepted definition of Artificial Intelligence?
+- How do different subfields of AI (e.g., machine learning, deep learning, natural language processing) contribute to the overall concept?     
+- What are the ethical considerations and societal implications of defining and utilizing AI?
+
+**Method Brief:**
+- Review and synthesize existing literature on AI definitions from academic and industry sources.
+- Analyze prominent AI systems and applications to identify common characteristics.
+- Examine the evolution of AI definitions over time to understand shifts in understanding.
+
+**Deliverables:**
+- A concise, up-to-date definition of AI suitable for a broad audience.
+- A summary report outlining the key characteristics and subfields of AI.
+- An identification of key challenges and future research directions in defining AI.

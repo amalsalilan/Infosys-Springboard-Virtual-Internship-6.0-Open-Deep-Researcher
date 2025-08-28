@@ -1,0 +1,48 @@
+Enter your research topic: What are the current global trends in renewable energy adoption?
+
+ JSON Output:
+
+{
+  "title": "Global Trends in Renewable Energy Adoption (2025)",
+  "problem_statement": "The global energy transition necessitates understanding current renewable energy adoption trends. This research will identify key drivers and barriers influencing the growth of renewable energy sources worldwide.",
+  "key_questions": [
+    "What are the leading renewable energy sources globally and how is their adoption changing?",
+    "What are the major policy and regulatory factors influencing renewable energy deployment in different regions?",
+    "What are the key economic and technological drivers and barriers to renewable energy adoption?"
+  ],
+  "method_brief": [
+    "Analysis of publicly available data from international organizations (e.g., IEA, IRENA) on renewable energy capacity, generation, and investment.",
+    "Review of recent academic literature and industry reports on renewable energy trends and market analysis.",
+    "Comparative analysis of renewable energy policies and regulations across different countries and regions.",
+    "Identification of emerging technologies and their potential impact on future renewable energy adoption."
+  ],
+  "deliverables": [
+    "A comprehensive report summarizing global trends in renewable energy adoption.",
+    "Data visualizations illustrating key findings and trends.",
+    "Policy recommendations for accelerating renewable energy deployment."
+  ]
+}
+
+ Markdown Preview:
+
+# Global Trends in Renewable Energy Adoption (2025)
+
+**Date:** 2025-08-26
+
+**Problem Statement:** The global energy transition necessitates understanding current renewable energy adoption trends. This research will identify key drivers and barriers influencing the growth of renewable energy sources worldwide.
+
+**Key Questions:**
+- What are the leading renewable energy sources globally and how is their adoption changing?
+- What are the major policy and regulatory factors influencing renewable energy deployment in different regions?
+- What are the key economic and technological drivers and barriers to renewable energy adoption?
+
+**Method Brief:**
+- Analysis of publicly available data from international organizations (e.g., IEA, IRENA) on renewable energy capacity, generation, and investment.
+- Review of recent academic literature and industry reports on renewable energy trends and market analysis.
+- Comparative analysis of renewable energy policies and regulations across different countries and regions.
+- Identification of emerging technologies and their potential impact on future renewable energy adoption.
+
+**Deliverables:**
+- A comprehensive report summarizing global trends in renewable energy adoption.
+- Data visualizations illustrating key findings and trends.
+- Policy recommendations for accelerating renewable energy deployment.
