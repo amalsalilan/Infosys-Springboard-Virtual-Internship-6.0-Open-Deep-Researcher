@@ -19,7 +19,7 @@ code/
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**
 ```
@@ -29,9 +29,11 @@ cd Deep_research_blog/code
 
 
 3. **Install required Python libraries**
+```
 pip install langchain langchain-google-genai pydantic
+```
 
-4. **Add your Google Gemini API key**
+5. **Add your Google Gemini API key**
 
 - Create a file named `.env` in the `code/` directory:
   ```
@@ -40,6 +42,47 @@ pip install langchain langchain-google-genai pydantic
 - The `.env` file is ignored by git for security.
 
 ---
+6. **usage**
+```
+   python deep_research.py
+```
+## Sample output
+
+```
+{
+  "title": "Artificial Intelligence Overview",
+  "date": "2025-08-28",
+  "objective": "To explore the definition, applications, and challenges of AI.",
+  "key_questions": [
+    "What is Artificial Intelligence?",
+    "What are its primary applications?",
+    "What are ethical concerns related to AI?"
+  ],
+  "methodology": [
+    "Literature review",
+    "Industry case studies",
+    "Expert interviews"
+  ],
+  "search_strategy": [
+    "Use Google Scholar for academic papers",
+    "Check IEEE, ACM, and Springer journals",
+    "Explore recent AI reports from McKinsey and Stanford AI Index"
+  ],
+  "sources_to_start": [
+    "Google Scholar",
+    "IEEE Xplore",
+    "ACM Digital Library"
+  ],
+  "risks_mitigations": [
+    "Risk: Over-reliance on outdated sources → Mitigation: Use latest publications",
+    "Risk: Biased case studies → Mitigation: Compare across industries"
+  ],
+  "deliverables": [
+    "Structured research brief in JSON",
+    "Markdown preview for blogs"
+  ]
+}
+```
 
 
 
