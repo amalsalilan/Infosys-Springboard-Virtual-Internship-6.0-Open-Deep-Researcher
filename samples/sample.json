@@ -1,0 +1,21 @@
+{
+  "title": "Quantum Computing Applications in Healthcare",
+  "problem_statement": "Quantum computing promises breakthroughs in drug discovery and medical data analysis. However, the feasibility of real-world applications in healthcare is uncertain.",
+  "key_questions": [
+    "Which healthcare problems can quantum computing realistically solve?",
+    "What technical limitations exist in applying quantum algorithms?",
+    "How do ethical and privacy issues affect adoption?"
+  ],
+  "method_brief": [
+    "Review of current quantum healthcare research",
+    "Interviews with biotech and pharma experts",
+    "Feasibility analysis of quantum drug simulations",
+    "Ethical framework assessment"
+  ],
+  "deliverables": [
+    "Healthcare use-case portfolio",
+    "Technical feasibility report",
+    "Ethical risk framework"
+  ],
+  "generated_at": "2025-08-26 10:20:00"
+}
