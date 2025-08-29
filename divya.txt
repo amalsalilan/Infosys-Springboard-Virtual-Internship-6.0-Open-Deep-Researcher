@@ -1,0 +1,144 @@
+import os
+import json
+from typing import List
+from pydantic import BaseModel, ValidationError
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain.prompts import ChatPromptTemplate
+from dotenv import load_dotenv
+from datetime import datetime   # ✅ new import
+
+# Load environment variables from .env if present
+load_dotenv()
+
+
+class ResearchBrief(BaseModel):
+    title: str
+    problem_statement: str  # 2 sentences
+    key_questions: List[str]  # 1–3 items
+    method_brief: List[str]  # few items
+    deliverables: List[str]  # 2–3 items
+
+
+def generate_research_brief(topic: str) -> ResearchBrief:
+    api_key = os.getenv("GOOGLE_API_KEY", "").strip()
+    if not api_key:
+        raise EnvironmentError(
+            "Missing GOOGLE_API_KEY. Create a .env file with GOOGLE_API_KEY=your_key or export it in your shell."
+        )
+
+    llm = ChatGoogleGenerativeAI(
+        model="gemini-2.0-flash",
+        api_key=api_key,
+        temperature=0,
+        max_tokens=None,
+        timeout=None,
+        max_retries=2
+    )
+
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", "You are a research analyst. Always return ONLY valid JSON matching the schema."),
+        ("user", """Topic: {topic}
+
+Return JSON with fields:
+- title (short title)
+- problem_statement (exactly 2 sentences)
+- key_questions (1-3 concise research questions)
+- method_brief (bullet methods: 2-4 items)
+- deliverables (2-3 practical outputs)""")
+    ])
+
+    try:
+        chain = prompt | llm.with_structured_output(ResearchBrief)
+        result: ResearchBrief = chain.invoke({"topic": topic})
+        return result
+    except ValidationError as ve:
+        print("JSON validation error:", ve)
+        raise
+    except Exception as e:
+        print("Error generating research brief:", e)
+        raise
+
+
+if _name_ == "_main_":
+    try:
+        topic = input("Enter research topic: ").strip()
+        if not topic:
+            raise ValueError("No topic provided.")
+
+        brief = generate_research_brief(topic)
+
+        # ✅ Print date and time
+        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print(f"\nGenerated on: {current_time}\n")
+
+        print("\nJSON Output:\n")
+        print(brief.model_dump_json(indent=2))  # pydantic v2
+
+        print("\nMarkdown Preview:\n")
+        print(f"# {brief.title}\n")
+        print(f"*Problem Statement:* {brief.problem_statement}\n")
+        print("*Key Questions:*")
+        for q in brief.key_questions:
+            print(f"- {q}")
+        print("\n*Method Brief:*")
+        for m in brief.method_brief:
+            print(f"- {m}")
+        print("\n*Deliverables:*")
+        for d in brief.deliverables:
+            print(f"- {d}")
+
+    except Exception as e:
+        print("Exiting:", str(e))
+
+OUTPUT:
+Enter research topic: Cybersecurity awareness in small businesses
+
+Generated on: 2025-08-29 18:02:10
+
+
+JSON Output:
+
+{
+  "title": "Cybersecurity Awareness in Small Businesses",
+  "problem_statement": "Small businesses are increasingly vulnerable to cyber threats due to limited resources and lack of awareness. Without proper cybersecurity practices, they face risks such as financial losses, data breaches, and reputational damage.",
+  "key_questions": [
+    "What are the most common cybersecurity risks faced by small businesses?",
+    "How effective are current awareness programs in reducing these risks?",
+    "What affordable strategies can small businesses adopt to strengthen cybersecurity?"
+  ],
+  "method_brief": [
+    "Survey of small business owners on cybersecurity practices",
+    "Case studies of cybersecurity breaches in small firms",
+    "Review of low-cost cybersecurity training programs",
+    "Expert interviews with cybersecurity professionals"
+  ],
+  "deliverables": [
+    "Research report on cybersecurity gaps and solutions",
+    "Awareness toolkit for small businesses",
+    "Presentation slides for workshops and training sessions"
+  ]
+}
+
+
+Markdown Preview:
+
+# Cybersecurity Awareness in Small Businesses
+
+*Problem Statement:*  
+Small businesses are increasingly vulnerable to cyber threats due to limited resources and lack of awareness. Without proper cybersecurity practices, they face risks such as financial losses, data breaches, and reputational damage.
+
+*Key Questions:*  
+- What are the most common cybersecurity risks faced by small businesses?  
+- How effective are current awareness programs in reducing these risks?  
+- What affordable strategies can small businesses adopt to strengthen cybersecurity?  
+
+*Method Brief:*  
+- Survey of small business owners on cybersecurity practices  
+- Case studies of cybersecurity breaches in small firms  
+- Review of low-cost cybersecurity training programs  
+- Expert interviews with cybersecurity professionals  
+
+*Deliverables:*  
+- Research report on cybersecurity gaps and solutions  
+- Awareness toolkit for small businesses  
+- Presentation slides for workshops and training sessions
