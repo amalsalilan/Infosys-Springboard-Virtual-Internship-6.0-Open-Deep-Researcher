@@ -1,0 +1,20 @@
+{
+  "title": "AI in Precision Agriculture",
+  "problem_statement": "Farmers face declining yields due to climate variability and resource constraints. AI-driven precision agriculture offers tools to optimize productivity and sustainability.",
+  "key_questions": [
+    "How can AI improve crop yield prediction?",
+    "What role do sensors and drones play in real-time monitoring?",
+    "What barriers exist for smallholder farmer adoption?"
+  ],
+  "method_brief": [
+    "Review AI-based agricultural case studies",
+    "Field survey with farmers using digital tools",
+    "Data collection from IoT devices and drones",
+    "Evaluation of cost-benefit scenarios"
+  ],
+  "deliverables": [
+    "Summary report with case studies",
+    "Adoption framework for smallholder farmers",
+    "Infographics of AI-driven yield improvements"
+  ]
+}
