@@ -1,8 +1,8 @@
-???? Mini Research Brief Agent
+Mini Research Brief Agent :
 
 A light-weight research assistant that creates short, formatted research briefs from any subject you input. Driven by LangChain, Google Gemini, and Pydantic for formatted outputs.
 
-???? Features
+Features :
 
 ✅ Accepts any research subject as input
 
@@ -14,7 +14,7 @@ A light-weight research assistant that creates short, formatted research briefs 
 
 ✅ Automatically inserts today's date
 
-????️ Tech Stack
+ Tech Stack :
 
 Python 3.9+
 
@@ -24,7 +24,7 @@ Google Gemini API
 
 Pydantic (strict schema validation)
 
-???? Project Structure
+ Project Structure  :
 Mini Research Brief/
 │── configure.py         # API key, prompt, parser setup
 │── mini_research_brief.py # Main entry point
@@ -68,7 +68,7 @@ Enter research topic: Increasing Women’s Participation in STEM
 
 Output will be displayed in JSON and Markdown preview formats.
 
-???? Example Output
+ Example Output :
 
 JSON
 
@@ -109,14 +109,14 @@ Date: 2025-08-28
 - Summary of research
 - Policy recommendations 
 
-???? Why This Project?
+ Why This Project?
 
 Academic researchers, students, and professionals often spend hours framing a research problem before even starting. This tool helps by providing a quick, structured, and validated brief to jumpstart the research process.
 
-???? Contributing
+ Contributing :
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
-???? License
+ License  :
 
 This project is licensed under the MIT License.
