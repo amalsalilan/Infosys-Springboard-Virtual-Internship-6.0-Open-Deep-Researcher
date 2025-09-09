@@ -1,0 +1,20 @@
+{
+  "title": "Post-Quantum Cryptography Migration for Fintechs",
+  "problem_statement": "This study investigates the transition of fintech systems to post-quantum cryptography (PQC) to maintain security against quantum computing threats.",
+  "key_questions": [
+    "Which PQC algorithms are most suitable for fintech applications?",
+    "What are the operational challenges in migrating existing systems?",
+    "How does PQC adoption impact transaction speed and security compliance?"
+  ],
+  "method_brief": [
+    "Review current PQC algorithms and NIST recommendations.",
+    "Conduct interviews with fintech security teams.",
+    "Perform risk assessment on legacy cryptography systems.",
+    "Prototype integration of PQC algorithms in test environments."
+  ],
+  "deliverables": [
+    "Concise report with migration roadmap.",
+    "Comparison of PQC algorithm performance.",
+    "Recommendations for phased deployment strategies."
+  ]
+}
