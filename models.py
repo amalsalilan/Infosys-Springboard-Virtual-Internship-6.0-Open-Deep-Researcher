@@ -1,5 +1,6 @@
+# models.py
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
 
 class ResearchBrief(BaseModel):
     title: str
@@ -7,4 +8,4 @@ class ResearchBrief(BaseModel):
     key_questions: List[str] 
     method_brief: List[str] 
     deliverables: List[str]  
-
+    date: Optional[str] = None
