@@ -1,0 +1,20 @@
+{
+  "title": "Post-Quantum Cryptography Migration for Fintechs",
+  "problem_statement": "Fintechs rely on cryptographic systems vulnerable to quantum computing advances. Migration to post-quantum cryptography is essential to secure financial data.",
+  "key_questions": [
+    "Which cryptographic algorithms are most vulnerable to quantum attacks?",
+    "What migration challenges will fintech companies face?",
+    "How can fintechs balance security with performance during transition?"
+  ],
+  "method_brief": [
+    "Review NIST post-quantum cryptography standards",
+    "Risk assessment of current fintech encryption systems",
+    "Simulation of quantum attack scenarios",
+    "Implementation roadmap for migration"
+  ],
+  "deliverables": [
+    "Technical report on quantum risks",
+    "Migration strategy playbook",
+    "Risk matrix for fintech adoption"
+  ]
+}
