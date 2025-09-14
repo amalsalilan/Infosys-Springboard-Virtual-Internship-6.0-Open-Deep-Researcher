@@ -1,9 +1,9 @@
 
-# Mini Research Brief Generator
+# Mini Research Brief 
 
 This project generates a mini research brief for a given topic using AI-powered summarization. It fetches research content and provides structured summaries in JSON format.
 
-## 🚀 Features
+## Features
 - Accepts a research topic as input.
 - Uses LangChain + Google Gemini API for text generation.
 - Outputs structured JSON containing:
@@ -13,7 +13,7 @@ This project generates a mini research brief for a given topic using AI-powered 
   - References
 - Includes **sample inputs and outputs** in the `samples/` folder.
 
-## 📂 Project Structure
+## Project Structure
 ```
 ├── mini_research_brief.py   # Main script
 ├── README.md                # Documentation
@@ -21,7 +21,7 @@ This project generates a mini research brief for a given topic using AI-powered 
 └── samples/                 # Folder with sample inputs & outputs
 ```
 
-## ✅ Requirements
+##  Requirements
 - Python 3.8 or above
 - Google Gemini API Key
 - LangChain & Google Generative AI SDK
@@ -31,7 +31,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## ▶️ Run in Google Colab
+## Run in Google Colab
 1. Open [Google Colab](https://colab.research.google.com/).
 2. Upload `mini_research_brief.py` and `requirements.txt`.
 3. Install dependencies:
@@ -48,8 +48,6 @@ pip install -r requirements.txt
    !python mini_research_brief.py
    ```
 
-## 🧪 Sample Inputs & Outputs
+## Sample Inputs & Outputs
 Samples are available in the `samples/` folder.
 
-## 📜 License
-This project is for educational purposes only.
