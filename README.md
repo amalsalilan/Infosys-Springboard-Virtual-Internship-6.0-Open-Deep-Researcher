@@ -1,4 +1,4 @@
-Mini Research Brief Agent:
+Research Brief Agent:
 
 This is a small AI-powered research assistant built using Google’s Gemini model and LangChain.
 
