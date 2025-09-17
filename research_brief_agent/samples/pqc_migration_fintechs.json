@@ -1,0 +1,59 @@
+{
+  "title": "Post-Quantum Cryptography Migration Plan for Fintechs",
+  "date": "2025-08-24",
+  "objective": "Define a pragmatic roadmap to achieve crypto-agility and migrate priority systems to PQC while maintaining compliance and uptime.",
+  "key_questions": [
+    "Which data flows are most exposed to harvest-now-decrypt-later risk?",
+    "What PQC algorithms/libraries align with current standards and vendors?",
+    "What rollout waves minimize risk with measurable readiness gates?"
+  ],
+  "methodology": [
+    "Inventory cryptographic usage across services, SDKs, keys, and certs.",
+    "Risk-rank data-in-transit and at-rest flows; select pilot targets.",
+    "Pilot hybrid KEM/TLS in a canary environment with rollback criteria.",
+    "Define monitoring and regression tests for each migration wave."
+  ],
+  "search_strategy": [
+    "Query NIST PQC finalists/standards and IETF drafts for TLS/KEM guidance.",
+    "Check vendor roadmaps (cloud HSMs, CDNs, API gateways) for PQC support.",
+    "Review regulators’ advisories for BFSI (RBI, PCI SSC, ISO/IEC)."
+  ],
+  "sources_to_start": [
+    "NIST PQC standards portal",
+    "IETF drafts: TLS + KEM/HYBRID guidance",
+    "Cloud KMS/HSM vendor docs (AWS, GCP, Azure)",
+    "RBI and PCI SSC compliance guidance"
+  ],
+  "milestones_timeline": [
+    {
+      "name": "Crypto Inventory & Risk Map",
+      "due_date": "2025-09-05",
+      "description": "System-by-system crypto usage and data-flow criticality"
+    },
+    {
+      "name": "Hybrid TLS Pilot",
+      "due_date": "2025-09-15",
+      "description": "Canary deploy with metrics, error budgets, rollback"
+    },
+    {
+      "name": "Wave 1 Rollout",
+      "due_date": "2025-09-25",
+      "description": "Customer-facing APIs with crypto-agility controls"
+    }
+  ],
+  "risks_mitigations": [
+    {
+      "risk": "Vendor libraries not stable or widely supported",
+      "mitigation": "Use abstraction layers; pin versions; maintain fallback ciphers"
+    },
+    {
+      "risk": "Performance regressions under PQC",
+      "mitigation": "Benchmark under load; scale capacity; cache session keys"
+    }
+  ],
+  "deliverables": [
+    "Gantt-level roadmap with dependencies",
+    "Risk register with testing/controls per wave",
+    "Pilot report with latency/throughput benchmarks"
+  ]
+}

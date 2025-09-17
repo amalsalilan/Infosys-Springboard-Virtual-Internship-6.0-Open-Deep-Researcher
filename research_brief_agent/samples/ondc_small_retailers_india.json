@@ -1,0 +1,58 @@
+{
+  "title": "Impact of ONDC on Small Retailers in India",
+  "date": "2025-08-24",
+  "objective": "Evaluate how participation in ONDC affects discovery, sales, and margins for kirana and micro-retailers, and identify low-friction onboarding practices.",
+  "key_questions": [
+    "How do traffic, conversion rate, and AOV change 8–12 weeks after onboarding?",
+    "What unit-cost drivers (logistics, commissions, tech) impact net margin?",
+    "Which support mechanisms reduce churn and onboarding friction?"
+  ],
+  "methodology": [
+    "Collect pre/post KPIs from 20–30 retailers (baseline + 8–12 weeks).",
+    "Semi-structured interviews with retailers, buyer apps, and logistics partners.",
+    "Benchmark unit economics vs. traditional channels and closed marketplaces."
+  ],
+  "search_strategy": [
+    "Query \"ONDC impact study\", \"kirana ecommerce India KPIs\" on Google Scholar.",
+    "Filter news/press releases from DPIIT/ONDC for policy & fee changes.",
+    "Scan industry blogs and analyst notes for unit-economics benchmarks."
+  ],
+  "sources_to_start": [
+    "ONDC official blog & DPIIT announcements",
+    "NASSCOM/BCG/Redseer reports on Indian ecommerce",
+    "RBI payments data (UPI, PPI) for transaction context",
+    "Industry media: Inc42, ET Retail"
+  ],
+  "milestones_timeline": [
+    {
+      "name": "Retailer Recruitment & Baseline",
+      "due_date": "2025-09-05",
+      "description": "Enroll 20–30 stores; capture baseline KPIs"
+    },
+    {
+      "name": "Midline Interviews",
+      "due_date": "2025-09-15",
+      "description": "Conduct 25+ stakeholder interviews"
+    },
+    {
+      "name": "Draft Brief",
+      "due_date": "2025-09-25",
+      "description": "Synthesize KPI deltas, margin model, recommendations"
+    }
+  ],
+  "risks_mitigations": [
+    {
+      "risk": "Incomplete retailer data or dropouts",
+      "mitigation": "Use incentives; triangulate with platform analytics where allowed"
+    },
+    {
+      "risk": "Policy/fee changes during study",
+      "mitigation": "Track changes weekly; annotate effect windows in analysis"
+    }
+  ],
+  "deliverables": [
+    "2-page brief with KPI deltas and unit-economics model",
+    "Adoption playbook: onboarding checklist & support flows",
+    "Anonymized KPI dataset (CSV) and interview summary"
+  ]
+}

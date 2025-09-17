@@ -1,0 +1,59 @@
+{
+  "title": "AI Tutors for Rural Schools in India: Pilot Plan",
+  "date": "2025-08-24",
+  "objective": "Assess near-term feasibility of AI tutor pilots considering connectivity, teacher workload, and vernacular content needs; define a safe, measurable rollout.",
+  "key_questions": [
+    "What minimum device/network specs are required for reliable sessions?",
+    "Which curricula and languages should be prioritized for a 3-month pilot?",
+    "What safeguards are needed for accuracy, safety, and data privacy?"
+  ],
+  "methodology": [
+    "Baseline survey of 10–15 schools: devices, bandwidth, timetable slots.",
+    "Co-design sessions with teachers; create 20 exemplar lesson flows.",
+    "Define guardrails: offline fallback, content filters, usage logging.",
+    "Pre/post learning assessment for pilot grades."
+  ],
+  "search_strategy": [
+    "Search 'AI tutoring RCT', 'intelligent tutoring systems India' on Google Scholar.",
+    "Scan NCERT/DIKSHA for aligned open content in target languages.",
+    "Review device policy and child safety guidelines from MeitY/MoE."
+  ],
+  "sources_to_start": [
+    "NCERT & DIKSHA repositories",
+    "UNESCO/UNICEF EdTech guidance",
+    "MeitY child safety and data protection advisories",
+    "State education dept. ICT policies"
+  ],
+  "milestones_timeline": [
+    {
+      "name": "Site Selection & Baseline",
+      "due_date": "2025-09-05",
+      "description": "Pick 10–15 schools; collect device/bandwidth baseline"
+    },
+    {
+      "name": "Content & Guardrails Setup",
+      "due_date": "2025-09-12",
+      "description": "Vernacular lesson flows; filters; logging"
+    },
+    {
+      "name": "Pilot Launch",
+      "due_date": "2025-09-18",
+      "description": "Run 6–8 weeks; monitor usage & issues"
+    }
+  ],
+  "risks_mitigations": [
+    {
+      "risk": "Spotty connectivity and device scarcity",
+      "mitigation": "Offline-first flow; shared devices; cache lessons"
+    },
+    {
+      "risk": "Hallucinations or unsafe outputs",
+      "mitigation": "Curriculum-bounded prompts; filters; human-in-the-loop review"
+    }
+  ],
+  "deliverables": [
+    "Pilot brief (≤2 pages) with cost envelope and success metrics",
+    "Sample lesson pack (vernacular) + deployment checklist",
+    "Pre/post learning outcome analysis"
+  ]
+}
