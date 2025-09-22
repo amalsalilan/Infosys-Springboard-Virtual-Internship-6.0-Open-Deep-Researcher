@@ -1,0 +1,21 @@
+{
+  "title": "Blockchain in Education: Building Transparency and Trust in Credentialing",
+  "problem_statement": "Educational institutions face rising challenges in verifying student records, preventing credential fraud, and maintaining transparency in assessments. Blockchain technology, with its decentralized and tamper-proof architecture, has the potential to transform student data management and credential verification. However, barriers such as limited technical expertise, high implementation costs, and unclear regulations hinder widespread adoption. This research aims to critically evaluate the feasibility and long-term impact of blockchain in education.",
+  "key_questions": [
+    "How can blockchain improve the authenticity and portability of academic records and certificates?",
+    "What financial, technical, and regulatory barriers limit the adoption of blockchain in education?",
+    "What lessons can be learned from early pilot projects in blockchain-enabled credentialing across different regions?"
+  ],
+  "method_brief": [
+    "Review academic and industry literature on blockchain applications in education (2016–2025).",
+    "Conduct surveys and interviews with university administrators, employers, and IT managers.",
+    "Examine pilot projects using blockchain for credential verification and digital diplomas.",
+    "Perform SWOT analysis to assess strengths, weaknesses, opportunities, and threats in adoption."
+  ],
+  "deliverables": [
+    "A 20-page research report mapping blockchain opportunities and challenges in education.",
+    "Comparative evaluation of existing blockchain credentialing platforms.",
+    "Executive summary with practical guidelines for policymakers and university leaders."
+  ]
+}
+

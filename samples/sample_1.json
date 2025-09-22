@@ -1,0 +1,20 @@
+{
+  "title": "Artificial Intelligence in Healthcare: Opportunities and Challenges",
+  "problem_statement": "Healthcare systems are under constant pressure to deliver faster, more accurate, and affordable services. Artificial Intelligence (AI) is revolutionizing this domain by assisting in diagnostics, treatment planning, patient monitoring, and administrative workflows. Despite its potential, concerns around data privacy, algorithmic fairness, integration costs, and regulatory compliance continue to restrict large-scale adoption. This research seeks to identify pathways for responsible and effective AI implementation in healthcare.",
+  "key_questions": [
+    "Which AI applications have demonstrated measurable improvements in diagnostics, treatment, and patient outcomes?",
+    "What ethical, legal, and regulatory concerns are most critical for AI adoption in healthcare?",
+    "How can hospitals and policymakers ensure AI integration balances efficiency with patient trust and safety?"
+  ],
+  "method_brief": [
+    "Conduct a systematic literature review of healthcare AI research published between 2015–2025.",
+    "Interview medical practitioners, hospital administrators, and AI developers for multi-perspective insights.",
+    "Analyze case studies of hospitals adopting AI-driven diagnostic or operational tools.",
+    "Compare AI adoption trends across high-income and low-income healthcare systems."
+  ],
+  "deliverables": [
+    "A 25-page research report synthesizing opportunities, risks, and adoption pathways.",
+    "Cross-country case study comparisons with practical lessons for healthcare institutions.",
+    "Policy and strategy recommendations for governments, hospitals, and AI developers."
+  ]
+}
