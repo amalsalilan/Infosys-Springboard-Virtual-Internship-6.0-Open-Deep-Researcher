@@ -1,0 +1,5 @@
+# Ignore API keys and local environment files
+.env
+venv/
+__pycache__/
+*.pyc

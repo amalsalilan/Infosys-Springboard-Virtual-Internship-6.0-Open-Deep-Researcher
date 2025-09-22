@@ -1,0 +1,6 @@
+python-dotenv
+rich
+langchain
+langchain-core
+langgraph
+pydantic
