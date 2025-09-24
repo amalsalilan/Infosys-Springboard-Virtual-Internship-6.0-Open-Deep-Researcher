@@ -148,7 +148,7 @@ def setup_llm():
     if not api_key:
         console.print("[red]Warning: GOOGLE_API_KEY not found in environment variables[/red]")
         # Fallback to hardcoded key (not recommended for production)
-        api_key = "AIzaSyDkN6qhf5i2-nVZf6f_dk5f0WHSzyr2-mI"
+        api_key = "your api key"
 
     rate_limiter = InMemoryRateLimiter(
         requests_per_second=0.1,  # Slightly more conservative
@@ -572,3 +572,4 @@ if __name__ == "__main__":
         max_iterations=5,
         directory=None  # Uses default FILES_DIRECTORY
     ))
+
